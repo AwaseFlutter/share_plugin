@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'dart:async';
+import 'package:share/share.dart';
 
 import 'package:flutter/services.dart';
 import 'package:share/share.dart';
@@ -19,7 +20,9 @@ class _MyAppState extends State<MyApp> {
           appBar: AppBar(
             title: const Text('Plugin example app'),
           ),
-          body: Container()),
+          body: FloatingActionButton(onPressed: () {
+            Share.share("https://twitter.com/");
+          })),
     );
   }
 }
