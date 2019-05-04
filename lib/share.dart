@@ -7,6 +7,7 @@ class Share {
 
   static Future<void> share(String text) {
     assert(text != null || text.isNotEmpty);
-    return _channel.invokeMethod('share', text);
+    final Map<String, String> params = <String, String>{"text": text};
+    return _channel.invokeMethod('share', params);
   }
 }
