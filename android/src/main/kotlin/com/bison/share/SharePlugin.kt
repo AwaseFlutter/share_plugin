@@ -40,7 +40,7 @@ class SharePlugin(private val activity: Activity) : MethodCallHandler {
         }
 
         val shareIntent = Intent(Intent.ACTION_SEND).apply {
-            putExtra(Intent.EXTRA_TEXT, "")
+            putExtra(Intent.EXTRA_TEXT, text)
             type = "text/plain"
         }
         val chooserIntent = Intent.createChooser(shareIntent, null)
