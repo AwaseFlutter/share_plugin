@@ -1,14 +1,11 @@
-# share
+# Flutter モバイルアプリ開発バイブル
 
-A new flutter plugin project.
+このリポジトリでは、南里勇気、太田佳敬、矢田裕基、片桐寛貴[著] [「Flutter モバイルアプリ開発バイブル」（マイナビ出版）](https://www.amazon.co.jp/Flutter-%E3%83%A2%E3%83%90%E3%82%A4%E3%83%AB%E3%82%A2%E3%83%97%E3%83%AA%E9%96%8B%E7%99%BA%E3%83%90%E3%82%A4%E3%83%96%E3%83%AB-%E5%8D%97%E9%87%8C%E5%8B%87%E6%B0%97/dp/4839970874)のサンプルコードを公開します。
 
-## Getting Started
+## サンプルコードリスト
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/developing-packages/),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
+下記の章で掲載したサンプルコードをダウンロードできます。
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+* Chapter5 ライブラリの実装
+
+※ 本書に記載されている内容や本ダウンロードデータの運用によって、いかなる損害が生じても、株式会社マイナビ出版および著者は責任を負いかねますので、あらかじめご了承ください。
